@@ -1,17 +1,16 @@
 # @trysac/autocomplete-index
 
-> In-memory autocomplete index for TypeScript: trie prefix search with typo tolerance by Levenshtein distance, diacritic-insensitive matching and weighted, deterministic ranking TypeScript library for Node.js 20+, published as ES modules with type declarations. MIT.
+> In-memory autocomplete index for TypeScript: trie prefix search with typo tolerance by Levenshtein distance, diacritic-insensitive matching and weighted, deterministic ranking. ESM library for Node.js 20+, no runtime dependencies, MIT.
 
 ## Docs
 
 - [README](README.md): problem, installation and usage example
-- [AGENTS.md](AGENTS.md): commands, folder map, conventions and limits for contributors and agents
 - [Architecture](docs/ARCHITECTURE.md): modules and boundaries
-- [Testing](docs/TESTING.md): how tests and coverage work
-- [Decisions](docs/decisions/0001-record-architecture-decisions.md): architecture decision records
+- [Testing](docs/TESTING.md): Vitest tests and covered behavior
+- [Project record](docs/PROJECT.md): objective, scope, timeline and effort metrics
+- [Security](docs/SECURITY.md): threat model and limits
+- [Stack](docs/STACK.md): tools used
 
 ## Optional
 
-- [Stack](docs/STACK.md): tools used and discarded
-- [Project record](docs/PROJECT.md): objective, scope, timeline and effort metrics
-- [Changelog](CHANGELOG.md)
+- No optional documents are listed in the reviewed files.
