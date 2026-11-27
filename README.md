@@ -2,7 +2,6 @@
 
 In-memory autocomplete index with fuzzy prefix matching and diacritic normalization.
 
-[![npm version](https://img.shields.io/npm/v/@trysac/autocomplete-index.svg)](https://www.npmjs.com/package/@trysac/autocomplete-index)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
@@ -15,9 +14,15 @@ In-memory autocomplete index with fuzzy prefix matching and diacritic normalizat
 
 ## Installation
 
-```bash
-npm install @trysac/autocomplete-index
+Not published to npm yet. Build it from a clone, then install it from the local path:
+
+```sh
+git clone https://github.com/Trysac/u214-autocomplete-index.git
+cd u214-autocomplete-index && npm ci && npm run build
+cd ../your-project && npm install ../u214-autocomplete-index
 ```
+
+Imports keep the package name: `import { ... } from "@trysac/autocomplete-index"`.
 
 ## Usage
 
